@@ -2022,8 +2022,8 @@ legend {
   background-color: #3f51b5;
 }
 .navbar.navbar-transparent {
-  background-color: transparent;
-  box-shadow: none;
+  background-color: rgba(0,0,0,.075);
+  /*box-shadow: none;*/
 }
 .navbar-fixed-top {
   border-radius: 0;
