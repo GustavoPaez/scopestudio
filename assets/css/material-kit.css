@@ -2226,6 +2226,7 @@ legend {
 h1, .h1 {
   font-size: 3.8em;
   line-height: 1.15em;
+  color: black;
 }
 
 h2, .h2 {
@@ -2241,6 +2242,7 @@ h3, .h3 {
 h4, .h4 {
   font-size: 1.3em;
   line-height: 1.4em;
+  color: black;
 }
 
 h5, .h5 {
