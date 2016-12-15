@@ -3179,7 +3179,7 @@ h2.title {
   top: 0;
   content: "";
   /*fondo frontal para el wallpaper*/
-  background-color: rgba(0, 0, 0, 0.3);
+  background-color:rgba(0, 0, 0, 0.0);
 }
 .header-filter .container {
   z-index: 2;
