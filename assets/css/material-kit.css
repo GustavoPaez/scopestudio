@@ -1806,7 +1806,7 @@ legend {
   line-height: 1.42857;
 }
 .navbar, .navbar.navbar-default {
-  background-color: #2979ff;
+  background-color: #000000;
   color: #ffffff;
 }
 .navbar .navbar-form .form-group input.form-control::-moz-placeholder,
@@ -2022,7 +2022,7 @@ legend {
   background-color: #3f51b5;
 }
 .navbar.navbar-transparent {
-  background-color: rgba(0,0,0,.075);
+  background-color: rgba(0,0,0);
   /*box-shadow: none;*/
 }
 .navbar-fixed-top {
@@ -2237,6 +2237,7 @@ h3, .h3 {
   font-size: 1.825em;
   line-height: 1.4em;
   margin: 20px 0 10px;
+  color:black;
 }
 
 h4, .h4 {
@@ -3350,7 +3351,7 @@ h2.title {
   }
 
   .navbar.navbar-transparent {
-    background-color: rgba(0, 0, 0, 0.4);
+    background-color: rgba(0, 0, 0);
     padding-top: 10px;
     border-radius: 0;
   }
