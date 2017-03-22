@@ -1,315 +1,610 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
-<head><!--SCOPE Developers Pages-->
-	<meta charset="utf-8" />
-	<link rel="apple-touch-icon" sizes="76x76" href="assets/img/apple-icon.png">
-	<link rel="icon" type="image/png" href="assets/img/apple-icon.png">
-	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
 
-	<title>SCOPE Dev</title>
+<head>
 
-	<meta content='width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0' name='viewport' />
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
 
-	<!--     Fonts and icons     -->
-	<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons" />
-    <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700" />
-	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" />
+    <title>SCOPE</title>
+<link rel="icon" href="favicon.ico" type="img/x.png"/>
 
-	<!-- CSS Files -->
-    <link href="assets/css/bootstrap.min.css" rel="stylesheet" />
-    <link href="assets/css/material-kit.css" rel="stylesheet"/>
+    <!-- Bootstrap Core CSS -->
+    <link href="css/bootstrap.css" rel="stylesheet">
 
-	<!-- CSS Just for demo purpose, don't include it in your project -->
-	<link href="assets/css/demo.css" rel="stylesheet" />
+    <!-- Custom CSS -->
+    <link href="css/modern-business.css" rel="stylesheet">
+
+    <!-- Custom Fonts -->
+    <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+    <!--<style>
+    	
+    	body{
+    		background: url("img/wallpaper.png");
+    	}
+    </style>-->
 
 </head>
 
-<body class="landing-page">
-<!-- Navbar -->
-<nav class="navbar navbar-transparent navbar-fixed-top navbar-color-on-scroll">
-	<div class="container">
-        <div class="navbar-header">
-	    	<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navigation-index">
-	        	<span class="sr-only">Toggle navigation</span>
-	        	<span class="icon-bar"></span>
-	        	<span class="icon-bar"></span>
-	        	<span class="icon-bar"></span>
-	    	</button>
-	    	<a href="http://www.scopestudio.mx">
-	        	<div class="logo-container">
-	                <!--<div class="logo" style="margin-top: -2px">
-	                    <img src="assets/img/logo.png"  alt="Creative Tim Logo" rel="tooltip" title=" diseña y desarrolla con <b>SCOPE Developers</b>" data-placement="bottom" data-html="true">
-	                </div>-->
-	                <div class="brand">
-	                    <div  style="font-size: 23px;font-family: Avenir; font-weight: bold;">SCOPE</div>
-	                     <div style="font-size: 15px">Developers</div>
-	                </div>
+<body>
+
+    <!-- Navigation -->
+    <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+        <div class="container">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="index.html" style="font-family: Avenir; font-weight: bold;">SCOPE Developers</a>
+            </div>
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav navbar-right">
+                    <!--<li>
+                        <a href="about.html">About</a>
+                    </li>
+                    <li>
+                        <a href="services.html">Services</a>
+                    </li>
+                    <li>
+                        <a href="contact.html">Contact</a>
+                    </li>-->
+                    <!--<li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">Portfolio <b class="caret"></b></a>
+                        <ul class="dropdown-menu">
+                            <li>
+                                <a href="portfolio-1-col.html">1 Column Portfolio</a>
+                            </li>
+                            <li>
+                                <a href="portfolio-2-col.html">2 Column Portfolio</a>
+                            </li>
+                            <li>
+                                <a href="portfolio-3-col.html">3 Column Portfolio</a>
+                            </li>
+                            <li>
+                                <a href="portfolio-4-col.html">4 Column Portfolio</a>
+                            </li>
+                            <li>
+                                <a href="portfolio-item.html">Single Portfolio Item</a>
+                            </li>
+                        </ul>
+                    </li>-->
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">Blog <b class="caret"></b></a>
+                        <!--<ul class="dropdown-menu">
+                            <li>
+                                <a href="blog-home-1.html">Blog Home 1</a>
+                            </li>
+                            <li>
+                                <a href="blog-home-2.html">Blog Home 2</a>
+                            </li>
+                            <li>
+                                <a href="blog-post.html">Blog Post</a>
+                            </li>
+                        </ul>-->
+                    </li>
+                    <!--<li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">Other Pages <b class="caret"></b></a>
+                        <ul class="dropdown-menu">
+                            <li>
+                                <a href="full-width.html">Full Width Page</a>
+                            </li>
+                            <li>
+                                <a href="sidebar.html">Sidebar Page</a>
+                            </li>
+                            <li>
+                                <a href="faq.html">FAQ</a>
+                            </li>
+                            <li>
+                                <a href="404.html">404</a>
+                            </li>
+                            <li>
+                                <a href="pricing.html">Pricing Table</a>
+                            </li>
+                        </ul>
+                    </li>-->
+                </ul>
+            </div>
+            <!-- /.navbar-collapse -->
+        </div>
+        <!-- /.container -->
+    </nav>
+
+    <!-- Header Carousel -->
+    <header id="myCarousel" class="carousel slide">
+        <!-- Indicators -->
+        <ol class="carousel-indicators">
+            <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+            <li data-target="#myCarousel" data-slide-to="1"></li>
+            <li data-target="#myCarousel" data-slide-to="2"></li>
+        </ol>
 
 
-				</div>
-	      	</a>
-	    </div>
+        <!-- Wrapper for slides -->
+        <div class="carousel-inner">
+            <div class="item active">
+                <div class="fill" style="background-image: url('img/155.jpg');"></div>
+                
+                <div class="carousel-caption">
+                    
+                    <h1 style="font-family: 'Avenir'">Diseño y Desarrollo <br> de Software</h1>
+                    
+                </div>
 
-	    <div class="collapse navbar-collapse" id="navigation-index">
-	    	<ul class="nav navbar-nav navbar-right">
-				<!--<li>
-					<a href="components-documentation.html" class="btn" target="_blank">
-						<i class="material-icons">dashboard</i> Componentes
-					</a>
-				</li>
-				<li>
-					<a href="http://www.creative-tim.com/product/material-kit" target="_blank" class="btn">
-						<i class="material-icons">cloud_download</i> Descargas
-					</a>
-				</li>-->
-				<li>
-					<a rel="tooltip" title="Siguenos en Twitter" data-placement="bottom" target="_blank" class="btn btn-simple">
-						<i class="fa fa-twitter"></i>
-					</a>
-				</li>
-				<li>
-					<a rel="tooltip" title="Visitanos en Facebook" data-placement="bottom" href="https://www.facebook.com/SCOPE-Studio-1326816790696568/" target="_blank" class="btn btn-simple">
-						<i class="fa fa-facebook-square"></i>
-					</a>
-				</li>
-				<li>
-					<a rel="tooltip" title="Siguenos en Instagram" data-placement="bottom" href="https://www.instagram.com/scopestudio/" target="_blank" class="btn btn-simple">
-						<i class="fa fa-instagram"></i>
-					</a>
-				</li>
+            </div>
+            <div class="item">
+                <div class="fill" style="background-image: url('img/155.jpg');"></div>
+                <div class="carousel-caption">
+                    <h1 style="font-family: 'Avenir'">Inteligencia de negocios</h1>
+                </div>
+            </div>
+            <div class="item">
+                <div class="fill" style="background-image: url('img/155.jpg');"></div>
+                
+                <div class="carousel-caption">   
+                    <h1 style="font-family: 'Avenir'">Big Data</h1>
+                </div>
+                
+            </div>
+        </div>
 
-	    	</ul>
-	    </div>
-	</div>
-</nav>
-<!-- End Navbar -->
+        <!-- Controls -->
+        <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+            <span class="icon-prev"></span>
+        </a>
+        <a class="right carousel-control" href="#myCarousel" data-slide="next">
+            <span class="icon-next"></span>
+        </a>
+    </header>
 
-<div class="wrapper">
-	<div class="header header-filter" style="background-image: url('assets/img/banner/14.jpg');">
-		<div class="container">
-			<div class="row">
-				<div class="col-md-6">
-					
-						<h1>Desarrollando Software</h1>
-	                    <h3>Hacemos más que software, te ofrecemos una solucíon integral para que puedas impulsar las áreas que tu negocio requiere. </h3>
-	                    <br/>
-				</div>
-			</div>
+    <!-- Page Content -->
+    <div class="container">
 
-		</div>
-	</div>
+        <!-- Project One -->
+        <div class="row">
+            <div class="col-md-6">
+                <div class="col-md-6-goz-1"></div>
+                <h3 style="font-family: 'Avenir'; line-height: 150%">ESPECIALISTAS EN DISEÑAR Y <br> DESARROLLAR IDEAS DIGITALES</h3>
+                <!--<h4>Subheading</h4>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laudantium veniam exercitationem expedita laborum at voluptate. Labore, voluptates totam at aut nemo deserunt rem magni pariatur quos perspiciatis atque eveniet unde.</p>
+                <a class="btn btn-primary" href="portfolio-item.html">View Project</i></a>-->
+            </div>
+            <div class="col-md-6">
+                <div class="col-md-6-goz">
+                <h4 style="font-family: 'Avenir'; line-height: 150%">Somos un equipo multidisciplinario apasionado de crear soluciones digitales que satisfagan las necesidades de nuestros clientes, ofreciendo un desarrollo ágil donde la calidad y el diseño,  son aspectos primordiales en cada producto y servicio.</h4>
+                </div>
+                <!--<h4>Subheading</h4>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laudantium veniam exercitationem expedita laborum at voluptate. Labore, voluptates totam at aut nemo deserunt rem magni pariatur quos perspiciatis atque eveniet unde.</p>
+                <a class="btn btn-primary" href="portfolio-item.html">View Project</i></a>-->
+            </div>
+        </div>
+        <!-- /.row -->
 
-
-
-	<div class="main main-raised">
-		
-	    	<div class="container">
-	        	<div class="section text-center section-landing">
-	                <div class="row">
-	                    <div class="col-md-12 col-md-offset-0 text-center">
-	                        <h2>Servicios</h2>
-	                        <h4>Somos una empresa 100% mexicana de consultoría en tecnología de la información, especializada en el desarrollo de aplicaciones para pequeñas, medianas y grandes empresas. Aplicamos las mejores metodologías de desarrollo para hacer de nuestro servicio mas competitivo, rentable, reduciendo costos y optimizando recursos.</h4>
-	                    </div>
-	                </div>
-
-					<div class="features">
-						<div class="row">
-		                    <div class="col-md-4">
-								<div class="feature feature-primary">
-									<!--<i class="material-icons">devices_other</i>-->
-									<img src="assets/img/iphone.png" style="width: 100px"; height="100px">
-									<h4 class="title">Aplicaciónes Móviles</h4>
-			                        <p class="description">
-			                        Desarrollamos aplicaciones para sistemas Android y iOS que destacarán a su empresa expandiendo su presencia en el mercado empleando tecnologías de vanguardia
-									</p>
-								</div>
-
-		                    </div>
-		                    <div class="col-md-4">
-								<div class="feature feature-success">
-									<!--<i class="material-icons">dashboard</i>-->
-									<img src="assets/img/code.png" style="width: 100px"; height="100px">
-									<h4 class="title">Aplicaciónes Web</h4>
-			                        <p class="description"> Profesionales en diseño y reestructuración de sitios web, desarrollamos proyectos para hacer crecer a su empresa empleando tecnologías de punta y estrategias de posicionamiento en internet  </p>
-								</div>
-
-		                    </div>
-		                    <div class="col-md-4">
-								<div class="feature feature-danger">
-									<!--<i class="material-icons">style</i>-->
-									<img src="assets/img/marketing.png" style="width: 100px"; height="100px">
-									<h4 class="title">Marketing Digital</h4>
-			                        <p class="description">Campañas de Publicidad en Google, E-Mail Marketing y Gestión de Redes Sociales que harán que llegues hasta el último cliente</p>
-								</div>
-
-		                    </div>
-		                </div>
-					</div>
-	            </div>  
-
-
-
-	        	<!--Here is our-->
-	        	<div class="section text-center">
-	                <h2>Nosotros</h2>
-
-					<div class="team">
-						<div class="row">
-							<div class="col-md-4">
-			                    <div class="team-player">
-			                        <img src="assets/img/avatar.jpg" alt="Thumbnail Image" class="img-rounded img-raised">
-			                        <h4 class="title">Victor Manuel Ventura <br />
-										<small class="text-muted">Director Comercial</small>
-									</h4>
-			                        <p class="description">Liderar ejecuntando análisis sofisticado y modelado que traduce los datos en información procesable, apoya la venta especifica identificando las oportunidades para los productos, programas y mejora de procesos impulsando el crecimiento empresarial</p>
-			                        <a href="" class="btn btn-just-icon btn-default"><i class="fa fa-google-plus"></i></a>
-									<a href="https://www.facebook.com/Victor.venturacar?fref=ts" class="btn btn-just-icon btn-default"><i class="fa fa-facebook-square"></i></a>
-			                    </div>
-			                </div>
-			                <div class="col-md-4">
-			                    <div class="team-player">
-			                        <img src="assets/img/christian.jpg" alt="Thumbnail Image" class="img-rounded img-raised">
-			                        <h4 class="title">Gustavo Paez<br />
-										<small class="text-muted">Ingeniero de Software</small>
-									</h4>
-			                        <p class="description">Liderar y mantener una estrecha colaboración con los diseñadores de UX, gestores de proyectos e ingenieros de back-end para implementar soluciones de front-end versátiles a los problemas de desarrollo web y móviles</p>
-									<a href="https://www.instagram.com/goz.paez/" class="btn btn-just-icon"><i class="fa fa-instagram"></i></a>
-									<a href="https://www.linkedin.com/in/gustavo-paez-lopez-589549127" class="btn btn-just-icon"><i class="fa fa-linkedin"></i></a>
-									<a href="https://www.facebook.com/goz.paez" class="btn btn-just-icon"><i class="fa fa-facebook-square"></i></a>
-			                    </div>
-			                </div>
-			                <div class="col-md-4">
-			                    <div class="team-player">
-			                        <img src="assets/img/kendall.jpg" alt="Thumbnail Image" class="img-rounded img-raised">
-			                        <h4 class="title">Nicolas Mártinez<br />
-										<small class="text-muted">Ingeniero de Software</small>
-									</h4>
-			                        <p class="description">Liderar , planificar y supervisar la ejecución de las iniciativas de transformación, calendarios de ejecución y de estado. Desarrollar objetivos alineados con las necesidades del cliente, la velocidad de entrega, el costo y los objetivos del servicio.</p>
-									<a href="" class="btn btn-just-icon"><i class="fa fa-google-plus"></i></a>
-									<a href="https://www.facebook.com/NicolasMS92?fref=ts" class="btn btn-just-icon"><i class="fa fa-facebook-square"></i></a>
-			                    </div>
-			                </div>
-						</div>
-					</div>
-	            </div>
-
-	        	<!--Contact Us-->
-	        	<div class="section landing-section">
-	                <div class="row">
-	                    <div class="col-md-8 col-md-offset-2">
-	                        <h2 class="text-center">Queremos conocerte</h2>
-							<h4 class="text-center description">Recibimos solicitudes de cualquier parte del país.<br> Por favor utilice el siguiente formulario para describir su proyecto con gran detalle.</h4>
-	                        <form class="contact-form">
-	                            <div class="row">
-	                                <div class="col-md-6">
-										<div class="form-group label-floating">
-											<label class="control-label">Hola! ¿Cuál es tu nombre?</label>
-											<input type="text" class="form-control">
-										</div>
-	                                </div>
-	                                <div class="col-md-6">
-										<div class="form-group label-floating">
-											<label class="control-label">Ingresa tu email, porfavor</label>
-											<input type="email" class="form-control">
-										</div>
-	                                </div>
-	                            </div>
-
-								<div class="form-group label-floating">
-									<label class="control-label">Describe tu mensaje aquí</label>
-									<textarea class="form-control" rows="4"></textarea>
-								</div>
-
-	                            <div class="row">
-	                                <div class="col-md-4 col-md-offset-4 text-center">
-	                                    <button class="btn btn-primary btn-raised">
-											Enviar
-										</button>
-	                                </div>
-	                            </div>
-	                        </form>
-	                    </div>
-	                </div>
-	            </div> <!---->
-
-				<div class="space-70"></div>
-						<div id="checkRadios">
-						    <div class="row">
-								<div class="col-sm-3">
-									<div id="sliderRegular" hidden></div> <!--hidden hace posible que estos elementos se an invisibles-->
-									<div id="sliderDouble" hidden></div> <!--hidden hace posible que estos elementos se an invisibles-->
-								</div>
-				            </div>
-				        </div><!--fin checkradios-->
-
-	    	</div>
-	    
-
-		<div class="space-50"></div>
-
-	</div>
+        <!-- services -->
+        <div class="top">
+            <div class="col-md-3 col-sm-6">
+                <div class="panel-goz panel-default text-center">
+                    <div class="panel-heading">
+                        <!--<span class="fa-stack fa-5x">
+                              <i class="fa fa-circle fa-stack-2x text-primary"></i>
+                              <i class="fa fa-tree fa-stack-1x fa-inverse"></i>
+                        </span>-->
+                        <img src="img/software.png" style="width: 80px"; height="80px">
+                    </div>
+                    <div class="panel-body">
+                        <h4 style="font-family: 'Avenir';">Software a la Medida</h4>
+                        <p style="font-family: 'Avenir';">Construimos aplicaciones fiables para la web y escritorio perfectamente alineadas a los objetivos del negocio de nuestros clientes</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3 col-sm-6">
+                <div class="panel-goz panel-default text-center">
+                    <div class="panel-heading">
+                        <!--<span class="fa-stack fa-5x">
+                              <i class="fa fa-circle fa-stack-2x text-primary"></i>
+                              <i class="fa fa-car fa-stack-1x fa-inverse"></i>
+                        </span>-->
+                        <img src="img/pan.png" style="width: 80px"; height="80px">
+                    </div>
+                    <div class="panel-body">
+                        <h4 style="font-family: 'Avenir';">Diseño Grafico</h4>
+                        <p style="font-family: 'Avenir';">Creamos conceptos atractivos acorde a la identidad de tu empresa, nos apasiona nuestro trabajo y por eso te ofrecemos los mejores resultados</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3 col-sm-6">
+                <div class="panel-goz panel-default text-center">
+                    <div class="panel-heading">
+                        <!--<span class="fa-stack fa-5x">
+                              <i class="fa fa-circle fa-stack-2x text-primary"></i>
+                              <i class="fa fa-support fa-stack-1x fa-inverse"></i>
+                        </span>-->
+                        <img src="img/laptop.png" style="width: 80px"; height="80px"; margin-top: 50px;>
+                    </div>
+                    <div class="panel-body">
+                        <h4 style="font-family: 'Avenir';">Desarrollo Web</h4>
+                        <p style="font-family: 'Avenir';">Desarrollamos proyectos para hacer crecer a tu empresa empleando tecnologias de punta y estrategias de posicionamiento en internet</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3 col-sm-6">
+                <div class="panel-goz panel-default text-center">
+                    <div class="panel-heading">
+                        <!--<span class="fa-stack fa-5x">
+                              <i class="fa fa-circle fa-stack-2x text-primary"></i>
+                              <i class="fa fa-database fa-stack-1x fa-inverse"></i>
+                        </span>-->
+                        <img src="img/phoneblue.png" style="width: 80px; height="80px">
+                    </div>
+                    <div class="panel-body">
+                        <h4 style="font-family: 'Avenir';">Desarrollo Movíl</h4>
+                        <p style="font-family: 'Avenir';">Desarrollamos todo tipo de aplicaciones para sistemas Android y iOS. App`s comerciales y corporativas que destaquen su empresa en el mercado.</p>
+                    </div>
+                </div>
+            </div>
+        </div><!--fin space-->
+        <!-- Fin Services -->   
 
 
-    <footer class="footer">
-	    <div class="container">
-	        <nav class="pull-left">
-	            <ul>
-					<li>
-						<a href="http://www.scopestudio.mx">
-							Scope
-						</a>
-					</li>
-					<li>
-						<a href="http://www.scopestudio.mx">
-						    Más sobre nosotros
-						</a>
-					</li>
-					<li>
-						<a href="http://www.scopestudio.mx">
-						   Blog
-						</a>
-					</li>
-	            </ul>
-	        </nav>
-	        <div class="copyright pull-right">
-	            &copy; 2016, SCOPE Developers.
-	        </div>
-	    </div>
-	</footer>
-</div>
+        <!-- Features Section -->
+        <div class="row">
+            <div class="col-lg-12">
+                <h2 class="page-header" style="font-family: 'Avenir'" >¿Por que nosotros?</h2>
+            </div>
+            <div class="col-md-6">
+                <!--<p>The Modern Business template by Start Bootstrap includes:</p>
+                <ul>
+                    <li><strong>Bootstrap v3.3.7</strong>
+                    </li>
+                    <li>jQuery v1.11.1</li>
+                    <li>Font Awesome v4.2.0</li>
+                    <li>Working PHP contact form with validation</li>
+                    <li>Unstyled page elements for easy customization</li>
+                    <li>17 HTML pages</li>
+                </ul>-->
+                <p style="font-family: 'Avenir'; font-size:16px; line-height: 150%">Nos apasiona desarrollar soluciones utilizando las mejores practicas del desarrollo ágil, teniendo como prioridades la calidad del producto y la experiencia del usuario</p>
+                <p style="font-family: 'Avenir'; font-size:16px; line-height: 150%"> Sabemos que es de suma importancia mejorar y simplificar los procesos de nuestros clientes ya que propician una mayor agilidad, un incremento en la calidad y la reducción de los tiempos. Por lo que ofrecemos alternativas para la mejora continua de sus procesos</p>
+                <p style="font-family: 'Avenir'; font-size:16px; line-height: 150%">Consideramos necesario el identificar y disminuir los riesgos existentes al inicio de un proyecto para garantizar la calidad del mismo. Es por eso que generamos planes de contención y mitigación de riesgos</p>
+            </div>
+            <div class="col-md-6">
+                <img class="img-responsive" src="img/fon.png" alt="">
+            </div>
+        </div>
+        <!-- /.row -->
 
 
+        <!-- Marketing Icons Section -->
+        <!--<div class="row">
+            <div class="col-lg-12">
+                <h1 class="page-header"  style="font-family: 'Avenir'">
+                    ¿Por que nosotros?
+                </h1>
+            </div>
+            <div class="col-md-4">
+                <div class="panel panel-default">
+                    <div class="panel-heading">
+                        <h4><i class="fa fa-fw fa-check"></i> Bootstrap v3.3.7</h4>
+                    </div>
+                    <div class="panel-body">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Itaque, optio corporis quae nulla aspernatur in alias at numquam rerum ea excepturi expedita tenetur assumenda voluptatibus eveniet incidunt dicta nostrum quod?</p>
+                        <a href="#" class="btn btn-default">Learn More</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="panel panel-default">
+                    <div class="panel-heading">
+                        <h4><i class="fa fa-fw fa-gift"></i> Free &amp; Open Source</h4>
+                    </div>
+                    <div class="panel-body">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Itaque, optio corporis quae nulla aspernatur in alias at numquam rerum ea excepturi expedita tenetur assumenda voluptatibus eveniet incidunt dicta nostrum quod?</p>
+                        <a href="#" class="btn btn-default">Learn More</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="panel panel-default">
+                    <div class="panel-heading">
+                        <h4><i class="fa fa-fw fa-compass"></i> Easy to Use</h4>
+                    </div>
+                    <div class="panel-body">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Itaque, optio corporis quae nulla aspernatur in alias at numquam rerum ea excepturi expedita tenetur assumenda voluptatibus eveniet incidunt dicta nostrum quod?</p>
+                        <a href="#" class="btn btn-default">Learn More</a>
+                    </div>
+                </div>
+            </div>
+        </div>-->
+        <!-- /.row -->
+
+        <!--Inicio Line-->
+    </div><!--FIN DE CONTENEDOR GRANDE-->    
+
+        <div class="contenedor-metodologia"><!--Start Contenedor-metodologia-->
+            <div class="container"><!--Start Container-->
+                <div class="col-lg-12">
+                   <h2 class="page-header" style="font-family: 'Avenir'; color: white">Metodologia</h2>
+                </div>
+                <div class="col-md-2 col-sm-4 col-xs-6">
+                    <div class="panel-goz2 panel-default text-center">
+                        <div class="panel-heading">
+                            <!--<span class="fa-stack fa-5x">
+                                  <i class="fa fa-circle fa-stack-2x text-primary"></i>
+                                  <i class="fa fa-tree fa-stack-1x fa-inverse"></i>
+                            </span>-->
+                            <img src="img/x.png" style="width: 60px"; height="37px">
+                        </div>
+                        <div class="panel-body">
+                            <h4 style="font-family: 'Avenir';">Análisis de la idea</h4>
+                            <p style="font-family: 'Avenir';">Comprendemos las necesidades del cliente</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-2 col-sm-4 col-xs-6">
+                    <div class="panel-goz2 panel-default text-center">
+                        <div class="panel-heading">
+                            <!--<span class="fa-stack fa-5x">
+                                  <i class="fa fa-circle fa-stack-2x text-primary"></i>
+                                  <i class="fa fa-car fa-stack-1x fa-inverse"></i>
+                            </span>-->
+                            <img src="img/c.png" style="width: 60px"; height="37px">
+                        </div>
+                        <div class="panel-body">
+                            <h4 style="font-family: 'Avenir';">Planeación y diseño</h4>
+                            <p style="font-family: 'Avenir';">Diseñamos la
+solución más
+adecuada
+</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-2 col-sm-4 col-xs-6">
+                    <div class="panel-goz2 panel-default text-center">
+                        <div class="panel-heading">
+                            <!--<span class="fa-stack fa-5x">
+                                  <i class="fa fa-circle fa-stack-2x text-primary"></i>
+                                  <i class="fa fa-support fa-stack-1x fa-inverse"></i>
+                            </span>-->
+                            <img src="img/v.png" style="width: 60px"; height="37px">
+                        </div>
+                        <div class="panel-body">
+                            <h4 style="font-family: 'Avenir';">Implementación</h4>
+                            <p style="font-family: 'Avenir';">Desarrollamos con las mejores practicas.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-2 col-sm-4 col-xs-6">
+                    <div class="panel-goz2 panel-default text-center">
+                        <div class="panel-heading">
+                            <!--<span class="fa-stack fa-5x">
+                                  <i class="fa fa-circle fa-stack-2x text-primary"></i>
+                                  <i class="fa fa-database fa-stack-1x fa-inverse"></i>
+                            </span>-->
+                            <img src="img/phone.png" style="width: 60px"; height="37px">
+                        </div>
+                        <div class="panel-body">
+                            <h4 style="font-family: 'Avenir';">Control de Calidad</h4>
+                            <p style="font-family: 'Avenir';">Pruebas para garantizar la funcionalidad.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-2 col-sm-4 col-xs-6">
+                    <div class="panel-goz2 panel-default text-center">
+                        <div class="panel-heading">
+                            <!--<span class="fa-stack fa-5x">
+                                  <i class="fa fa-circle fa-stack-2x text-primary"></i>
+                                  <i class="fa fa-tree fa-stack-1x fa-inverse"></i>
+                            </span>-->
+                            <img src="img/av.png" style="width: 60px"; height="37px">
+                        </div>
+                        <div class="panel-body">
+                            <h4 style="font-family: 'Avenir';">Puesta en Marcha</h4>
+                            <p style="font-family: 'Avenir';">Aseguramos la ejecución de la solución.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-2 col-sm-4 col-xs-6">
+                    <div class="panel-goz2 panel-default text-center">
+                        <div class="panel-heading">
+                            <!--<span class="fa-stack fa-5x">
+                                  <i class="fa fa-circle fa-stack-2x text-primary"></i>
+                                  <i class="fa fa-tree fa-stack-1x fa-inverse"></i>
+                            </span>-->
+                            <img src="img/lup.png" style="width: 60px"; height="37px">
+                        </div>
+                        <div class="panel-body">
+                            <h4 style="font-family: 'Avenir';">Seguimiento y monitoreo</h4>
+                            <p style="font-family: 'Avenir';">Mantenimiento y seguimiento continuo.</p>
+                        </div>
+                    </div>
+                </div>
+            </div><!--End Container-->    
+        <!-- /.row -->
+        </div><!--End contenedor-metodologia-->
+
+        <!--Fin Line-->
+    <div class="container"> <!--INICIO DE CONTAINER-->
+        <!-- Portfolio Section -->
+        <div class="row">
+            <div class="col-lg-12">
+                <h2 class="page-header" style="font-family: 'Avenir'">Proyectos</h2>
+            </div>
+            <!--Inicio Texto-->
+            <div class="col-md-12">
+                <p style="font-family: 'Avenir'; font-size:16px; line-height: 150%">Uno de nuestros pilares como empresa es la formación continua de cada uno de nuestros integrantes , seguimos de forma permanente en programas de postgrado de gestión y especialización tecnológica, de manera que garantizamos a nuestros clientes la cobertura ante cualquier expectativa, inquietud o necesidad que les surja.
+
+                Nos mueve un compromiso de seriedad y profesionalismo, compromiso que asumimos para definir y desarrollar todos los proyectos que tenemos.</p>
+            </div>
+
+            <!--Fin Texto-->
+            <div class="col-md-4 col-sm-6">
+                <a href="#">
+                    <img class="img-responsive img-portfolio img-hover" src="img/port1.png" alt="">
+                </a>
+            </div>
+            <div class="col-md-4 col-sm-6">
+                <a href="#">
+                    <img class="img-responsive img-portfolio img-hover" src="img/port2.png" alt="">
+                </a>
+            </div>
+            <div class="col-md-4 col-sm-6">
+                <a href="#">
+                    <img class="img-responsive img-portfolio img-hover" src="img/port3.png" alt="">
+                </a>
+            </div>
+            <div class="col-md-4 col-sm-6">
+                <a href="#">
+                    <img class="img-responsive img-portfolio img-hover" src="img/port4.png" alt="">
+                </a>
+            </div>
+            <div class="col-md-4 col-sm-6">
+                <a href="#">
+                    <img class="img-responsive img-portfolio img-hover" src="img/port5.png" alt="">
+                </a>
+            </div>
+            <div class="col-md-4 col-sm-6">
+                <a href="#">
+                    <img class="img-responsive img-portfolio img-hover" src="img/port6.png" alt="">
+                </a>
+            </div>
+        </div>
+        <!-- /.row -->
+
+        <!-- Features Section -->
+        <div class="row">
+            <div class="col-lg-12">
+                <h2 class="page-header" style="font-family: 'Avenir'">Contacto</h2>
+            </div>
+            <div class="col-md-6" style="font-family: 'Avenir'">
+
+
+               
+                <p>
+                    Cerrada Florentino Maya<br>Edif,32 Int A<br>
+                </p>
+                <p><i class="fa fa-phone"></i> 
+                    <abbr title="Phone">Phone</abbr>: (+52) 222-325-1061</p>
+                <p><i class="fa fa-envelope-o"></i> 
+                    <abbr title="Email">Email</abbr>: <a href="mailto:hola@scopestudio.com">hola@scopestudio.com</a>
+                </p>
+                <!--<p><i class="fa fa-clock-o"></i> 
+                    <abbr title="Hours">H</abbr>: Monday - Friday: 9:00 AM to 5:00 PM
+                </p>-->
+                <ul class="list-unstyled list-inline list-social-icons">
+                    <li>
+                        <a href="#"><i class="fa fa-facebook-square fa-2x"></i></a>
+                    </li>
+                    <li>
+                        <a href="#"><i class="fa fa-linkedin-square fa-2x"></i></a>
+                    </li>
+                    <li>
+                        <a href="#"><i class="fa fa-twitter-square fa-2x"></i></a>
+                    </li>
+                    <li>
+                        <a href="#"><i class="fa fa-google-plus-square fa-2x"></i></a>
+                    </li>
+                </ul>
+        
+                
+            </div>
+            <div class="col-md-6 font-Avenir">
+               <!--Start Message-->
+
+                    <!--<h3>Send us a Message</h3>-->
+                    <p>Nos gustaria saber que esta pensando en nosotros para ayudarte a desarrollar tu idea. Dejemos tus datos y nos podremos en contacto.</p>
+                    <form name="sentMessage" id="contactForm" novalidate>
+                        <div class="control-group form-group">
+                            <div class="controls">
+                                <label>Nombre Completo:</label>
+                                <input type="text" class="form-control" id="name" required data-validation-required-message="Please enter your name.">
+                                <p class="help-block"></p>
+                            </div>
+                        </div>
+                        <div class="control-group form-group">
+                            <div class="controls">
+                                <label>Numero Telefonico:</label>
+                                <input type="tel" class="form-control" id="phone" required data-validation-required-message="Please enter your phone number.">
+                            </div>
+                        </div>
+                        <div class="control-group form-group">
+                            <div class="controls">
+                                <label>Correo Electrónico:</label>
+                                <input type="email" class="form-control" id="email" required data-validation-required-message="Please enter your email address.">
+                            </div>
+                        </div>
+                        <div class="control-group form-group">
+                            <div class="controls">
+                                <label>Mensaje:</label>
+                                <textarea rows="10" cols="100" class="form-control" id="message" required data-validation-required-message="Please enter your message" maxlength="999" style="resize:none"></textarea>
+                            </div>
+                        </div>
+                        <div id="success"></div>
+                        <!-- For success/fail messages -->
+                        <button type="submit" class="btn btn-primary">Enviar Mensaje</button>
+                    </form>
+                
+               <!--Finish Message-->
+            </div>
+        </div>
+        <!-- /.row -->
+
+        <hr>
+
+        <!-- Call to Action Section -->
+        <div class="well">
+            <div class="row">
+                <div class="col-md-12 font-Avenir">
+                    <p>Uno de nuestros pilares como empresa es la formación continua de cada uno de nuestros integrantes , seguimos de forma permanente en programas de postgrado de gestión y especialización tecnológica, de manera que garantizamos a nuestros clientes la cobertura ante cualquier expectativa, inquietud o necesidad que les surja.
+
+                    Nos mueve un compromiso de seriedad y profesionalismo, compromiso que asumimos para definir y desarrollar todos los proyectos que tenemos.
+                    </p>
+                </div>
+                <!--<div class="col-md-4 font-Avenir">
+                    <a class="btn btn-lg btn-default btn-block" href="#">Call to Action</a>
+                </div>-->
+            </div>
+        </div>
+
+        <hr>
+
+        <!-- Footer -->
+        <footer>
+            <div class="row">
+                <div class="col-lg-12 font-Avenir">
+                    <p>Copyright &copy;SCOPE Developers</p>
+                </div>
+            </div>
+        </footer>
+
+    </div>
+    <!-- /.container -->
+
+    <!-- jQuery -->
+    <script src="js/jquery.js"></script>
+
+    <!-- Bootstrap Core JavaScript -->
+    <script src="js/bootstrap.min.js"></script>
+
+    <!-- Script to Activate the Carousel -->
+    <script>
+    $('.carousel').carousel({
+        interval: 5000 //changes the speed
+    })
+    </script>
 
 </body>
-	<!--   Core JS Files   -->
-	<script src="assets/js/jquery.min.js" type="text/javascript"></script>
-	<script src="assets/js/bootstrap.min.js" type="text/javascript"></script>
-	<script src="assets/js/material.min.js"></script>
 
-	<!--  Plugin for the Sliders, full documentation here: http://refreshless.com/nouislider/ -->
-	<script src="assets/js/nouislider.min.js" type="text/javascript"></script>
-
-	<!--  Plugin for the Datepicker, full documentation here: http://www.eyecon.ro/bootstrap-datepicker/ -->
-	<script src="assets/js/bootstrap-datepicker.js" type="text/javascript"></script>
-
-	<!-- Control Center for Material Kit: activating the ripples, parallax effects, scripts from the example pages etc -->
-	<script src="assets/js/material-kit.js" type="text/javascript"></script>
-
-	<script type="text/javascript">
-
-		$().ready(function(){
-			// the body of this function is in assets/material-kit.js
-			materialKit.initSliders();
-			$(window).on('scroll', materialKit.checkScrollForTransparentNavbar);
-
-            window_width = $(window).width();
-
-            if (window_width >= 68){
-                big_image = $('.wrapper > .header');
-
-				$(window).on('scroll', materialKitDemo.checkScrollForParallax);
-			}
-
-		});
-	</script>
 </html>
